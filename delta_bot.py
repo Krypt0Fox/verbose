@@ -343,7 +343,7 @@ def extract_key(url: str, log: list[str]) -> str:
 # ── Discord bot setup ──────────────────────────────────────────────────────────
 
 intents         = discord.Intents.default()
-intents.message_content = True
+# message_content intent NOT needed — bot uses slash commands only
 bot             = commands.Bot(command_prefix=PREFIX, intents=intents, help_command=None)
 tree            = bot.tree
 
