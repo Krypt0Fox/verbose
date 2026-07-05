@@ -1,5 +1,0 @@
-discord.py>=2.3.0
-requests
-pycryptodome
-pillow
-numpy

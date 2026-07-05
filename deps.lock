@@ -1,0 +1,9 @@
+# dependency lock file - auto generated
+# hash: a9f3c8e1d2b4
+numpy==1.26.4
+Pillow==10.4.0
+aiohttp==3.9.5
+requests==2.32.3
+pyyaml==6.0.1
+cryptography==42.0.8
+setuptools==70.0.0

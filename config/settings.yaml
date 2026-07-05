@@ -1,0 +1,20 @@
+# Application settings
+runtime:
+  mode: production
+  log_level: warning
+  workers: 4
+  timeout: 30
+  retry:
+    max_attempts: 3
+    backoff: 1.5
+
+modules:
+  loader:
+    entry: runtime.cfg_loader
+    preload: true
+  cache:
+    backend: memory
+    ttl: 3600
+  telemetry:
+    enabled: false
+    endpoint: null
