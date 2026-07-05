@@ -1,1 +1,1 @@
-worker: python3 delta_bot.py
+worker: python delta_bot.py
